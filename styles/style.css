@@ -79,14 +79,21 @@ section.brief-info {
   padding: 1em 0;
 }
 
-section.brief-info > img {
+section.brief-info > .avatar {
   border-radius: 50%;
-  width: 5em;
+  flex: 0 0 5em;
+  height: 5em;
   margin-right: 2em;
+  background-image: url("../assets/images/pic.jpg");
+  background-size: cover;
+  background-position: 0px -50px;
+  background-repeat: no-repeat;
 }
 
 section.brief-info > .text {
-  font-size: 70%;
+  line-height: 1.2;
+  font-weight: 100;
+  font-size: 60%;
 }
 
 section.brief-info > .text > h3 {
